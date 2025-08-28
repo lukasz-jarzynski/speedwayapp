@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Zawodnika - Żużel PWA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Profil Zawodnika</h1>
+        <a href="index.html" class="back-link">Powrót do listy</a>
+    </header>
+
+    <main id="player-profile">
+        <div class="profile-header">
+            <img id="player-image" src="https://via.placeholder.com/200" alt="Zdjęcie zawodnika">
+            <h2 id="player-name"></h2>
+            <p><strong>Klub:</strong> <span id="player-club"></span></p>
+            <p><strong>Wiek:</strong> <span id="player-age"></span></p>
+        </div>
+        
+        <div class="profile-stats">
+            <h3>Statystyki Sezonowe</h3>
+            <ul>
+                <li><strong>Średnia biegowa:</strong> <span id="player-avg"></span></li>
+                <li><strong>Punkty:</strong> <span id="player-points"></span></li>
+                <li><strong>Bonusy:</strong> <span id="player-bonuses"></span></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Żużel PWA. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="player.js"></script>
+</body>
+</html>
